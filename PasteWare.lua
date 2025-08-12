@@ -331,9 +331,9 @@ local function loadLocalOrRemote(localFile, remoteUrl)
     return loadstring(game:HttpGet(remoteUrl))()
 end
 
-local Library = loadLocalOrRemote("linoralib.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/linoralib.lua")
-local ThemeManager = loadLocalOrRemote("manage2.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manage2.lua")
-local SaveManager = loadLocalOrRemote("manager.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manager.lua")
+local Library = loadLocalOrRemote("linoralib.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/linoralib.lua")
+local ThemeManager = loadLocalOrRemote("manage2.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manage2.lua")
+local SaveManager = loadLocalOrRemote("manager.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manager.lua")
 
 Library.KeybindFrame.Visible = true;
 
