@@ -325,9 +325,9 @@ local function loadLocalOrRemote(localFile, remoteUrl)
     return loadstring(game:HttpGet(remoteUrl))()
 end
 
-local Library = loadLocalOrRemote("mobileLib.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/mobileLib.lua")
-local ThemeManager = loadLocalOrRemote("manage2.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manage2.lua")
-local SaveManager = loadLocalOrRemote("manager.lua", "https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manager.lua")
+local Library = loadLocalOrRemote("mobileLib.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/mobileLib.lua")
+local ThemeManager = loadLocalOrRemote("manage2.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manage2.lua")
+local SaveManager = loadLocalOrRemote("manager.lua", "https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manager.lua")
 
 local Window = Library:CreateWindow({
     Title = 'PasteWare  |  github.com/FakeAngles',
@@ -2211,3 +2211,4 @@ while true do
 end
 
 ThemeManager:LoadDefaultTheme()
+
