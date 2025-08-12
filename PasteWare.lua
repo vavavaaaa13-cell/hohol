@@ -1,7 +1,7 @@
 local UIS = game:GetService("UserInputService")
 if UIS.TouchEnabled and not UIS.MouseEnabled and not UIS.KeyboardEnabled then
     getgenv().bypass_adonis = true
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/PasteWareMobile.lua'))() return
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/PasteWareMobile.lua'))() return
 end
 
 if not game:IsLoaded() then 
@@ -313,9 +313,9 @@ end)
 
 
 
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/linoralib.lua"))()
-local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manage2.lua"))()
-local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/FakeAngles/PasteWare/refs/heads/main/manager.lua"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/linoralib.lua"))()
+local ThemeManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manage2.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/vavavaaaa13-cell/hohol/refs/heads/main/manager.lua"))()
 
 Library.KeybindFrame.Visible = true;
 
@@ -2258,3 +2258,4 @@ while true do
 end
 
 ThemeManager:LoadDefaultTheme()
+
